@@ -18,9 +18,9 @@ Hugo Sant'Anna:
     - label: "Twitter"
       icon: "fab fa-twitter"
       url: "http://www.twitter.com/hsantanna"
-    - label: "UGA Economics"
+    - label: "Department of Economics @ UGA"
       icon: "fas fa-university"
       url: "https://www.terry.uga.edu/economics/index.php"
-    - label: UGA ERG
+    - label: UGA Econometrics Reading Group
       icon: "fa fa-bookmark"
       url: "https://sites.google.com/view/uga-erg/"

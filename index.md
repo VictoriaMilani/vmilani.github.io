@@ -6,7 +6,7 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
-**Welcome!** I am Hugo, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
+**Welcome!** I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
 
 I am a labor economist with focus on applied econometrics. My research interests are Immigration and Gender in the Labor Market, and Difference-in-differences Applications. In my job market paper, I use a large administrative data, and clustering and mixture algorithms to measure the contribution of assortativity between workers and firms to the gender wage gap.

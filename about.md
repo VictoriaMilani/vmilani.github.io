@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-![Ipanema Beach's Winter Sunset](hsantanna88.github.io/assets/ipanema.jpg)
+![Ipanema Beach's Winter Sunset](hsantanna88.github.io/assets/images/ipanema.jpg)

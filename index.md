@@ -14,9 +14,11 @@ author: Hugo Sant'Anna
 
 I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
-I am a labor economist with a focus on applied econometrics. I am particularly interested in how wages are shaped in the labor market. In my job market paper, I use a large administrative data and a Gaussian mixture algorithm to measure the contribution of assortativity between workers and firms to the gender wage gap. [publicly available mid-august]
+My research interests are labor economics and applied econometrics. I am particularly interested in how labor markets shape wages.
 
-In my second year paper, I use an administrative dataset to show how complementarity dynamics between formal and the informal markets can positively and negatively affect wages.
+In my job market paper, I employ a Gaussian mixture model on a large administrative data to measure how worker-firm assortativity affects the gender wage gap. [publicly available mid-august]
+
+In my second year paper, I employ a doubly robust DID model on administrative data to show how complementarity between formal and the informal markets can positively and negatively affect wages.
 
 I am also working on a more theoretical econometrics paper to provide imputation methods to covariates that may be affected by treatment.
 

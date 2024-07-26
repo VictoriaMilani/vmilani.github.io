@@ -10,10 +10,15 @@ author: Hugo Sant'Anna
   <strong>My paper The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market got an R&R in the Journal of Economic Geography!</strong>
 </div>
 
-**Welcome!** I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
+**Welcome!**
 
+I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
-I am a labor economist with focus on applied econometrics. My research interests are Immigration and Gender in the Labor Market, and Difference-in-differences Applications. In my job market paper, I use a large administrative data, and clustering and mixture algorithms to measure the contribution of assortativity between workers and firms to the gender wage gap.
+I am a labor economist with a focus on applied econometrics. I am particularly interested in how wages are shaped in the labor market. In my job market paper, I use a large administrative data and a Gaussian mixture algorithm to measure the contribution of assortativity between workers and firms to the gender wage gap.
+
+In my second year paper, I use an administrative dataset to show how complementarity dynamics between formal and the informal markets can positively and negatively affect wages.
+
+I am also working on more theoretical econometrics to provide imputation methods to covariates that may be affected by treatment.
 
 I will be on the 2024/2025 job market.
 

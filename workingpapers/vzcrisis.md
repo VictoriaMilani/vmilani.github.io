@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 
+title: _blank
 permalink: /workingpapers/vzcrisis
 ---
 

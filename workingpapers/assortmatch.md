@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Assortative Matching and the Gender Wage Gap
 permalink: /workingpapers/assortmatch
 ---

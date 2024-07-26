@@ -4,4 +4,4 @@ title: CV
 permalink: /cv/
 ---
 
-[Link to CV](../files/hsantannaCV.pdf)
+<object data="../files/hsantannaCV.pdf" width="1000" height="1000" type='application/pdf'></object>

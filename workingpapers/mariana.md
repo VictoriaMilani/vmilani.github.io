@@ -1,9 +1,10 @@
 ---
 layout: single
 classes: wide
-title: Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure
+title: Labor Market Effects of an Environmental Disaster\: Evidence from the 2015 Mariana Dam Failure
 permalink: /workingpapers/mariana
 ---
+
 - <a href="https://arxiv.org/pdf/2405.15862" target="_blank">Pre-print manuscript</a>
 
 ## Abstract

@@ -1,15 +1,15 @@
 ---
 layout: single
 classes: wide
-title: The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market
+title: Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure
 permalink: /workingpapers/mariana
 ---
-- <a href="https://arxiv.org/pdf/2302.04201" target="_blank">Pre-print manuscript</a>
+- <a href="https://arxiv.org/pdf/2405.15862" target="_blank">Pre-print manuscript</a>
 
 ## Abstract
-We use administrative panel data on the universe of Brazilian formal workers to investigate the labor market effects of the Venezuelan crisis in Brazil, focusing on the border state of Roraima. The results using difference-in-differences show that the monthly wages of Brazilians in Roraima increased by around 2 percent, which was mostly driven by those working in sectors and occupations with no refugee involvement. The study finds negligible job displacement for Brazilians but finds evidence of native workers moving to occupations without immigrants. We also find that immigrants in the informal market offset the substitution effects in the formal market.
+This paper examines the labor market impacts of the 2015 Mariana Dam disaster in Brazil. It contrasts two theoretical models: an urban spatial equilibrium model and a factor of production model, with diverging perspectives on environmental influences on labor outcomes. Utilizing rich national administrative and spatial data, the study reveals that the unusual environmental alteration, with minimal human capital loss, primarily affected outcomes via the factor of production channel. Nevertheless, spatial equilibrium dynamics are discernible within certain market segments. This research contributes to the growing literature on environmental changes and its economic consequences.
 
 ### Suggested Citation
-Sant'Anna, Hugo and Samyam Shrestha. ``The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market.'', April 2024. Revise and resubmit, *Journal of Economic Geography*.
+Sant'Anna, Hugo. ``Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure.'', Jun 2024. *Working Paper*.
 
 

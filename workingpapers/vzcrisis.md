@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market
 permalink: /workingpapers/vzcrisis
 ---

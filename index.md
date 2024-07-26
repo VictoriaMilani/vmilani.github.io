@@ -22,7 +22,7 @@ I am also working on more theoretical econometrics paper to provide imputation m
 
 I will be on the 2024/2025 job market.
 
-My <a href="files/hsantannaCV.pdf">curriculum</a>
+My <a href="files/hsantannaCV.pdf">curriculum vitae</a>
 
 Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
 

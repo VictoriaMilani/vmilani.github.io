@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Difference in Differences with Time-Varying Covariates
 permalink: /workingpapers/badcontrols
 ---

@@ -6,4 +6,4 @@ permalink: /research/
 
 ## Working Papers
 
-Sant'Anna, Hugo and Samyam Shrestha "The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market.", May 2024 [details](/workingpapers/vzcrisis)
+Sant'Anna, Hugo and Samyam Shrestha "The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market.", May 2024 [[details](/workingpapers/vzcrisis.md)]

@@ -4,8 +4,10 @@ main:
   - title: "About"
     url: /about/
   - title: "CV"
-    url: <a href="../files/hsantannaCV.pdf" target="_blank">CV</a>
-  - title: "Research and Projects"
+    url: /cv/
+  - title: "Research"
     url: /research/
+  - title: "Posts"
+    url: /posts/
   - title: "Teaching"
     url: /teaching/

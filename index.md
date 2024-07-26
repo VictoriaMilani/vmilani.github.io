@@ -18,10 +18,11 @@ I am a labor economist with a focus on applied econometrics. I am particularly i
 
 In my second year paper, I use an administrative dataset to show how complementarity dynamics between formal and the informal markets can positively and negatively affect wages.
 
-I am also working on more theoretical econometrics to provide imputation methods to covariates that may be affected by treatment.
+I am also working on more theoretical econometrics paper to provide imputation methods to covariates that may be affected by treatment.
 
 I will be on the 2024/2025 job market.
 
+My <a href="files/hsantannaCV.pdf">curriculum</a>
 Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
 
 **Fields:**

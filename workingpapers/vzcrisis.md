@@ -5,7 +5,7 @@ permalink: /workingpapers/vzcrisis
 ---
 
 ## The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market
-<img src="/assets/images/fig_main_logwage.png" width="100" />
+<img src="/assets/images/fig_main_logwage.png" width="640" />
 
 - <a href="https://arxiv.org/pdf/2302.04201" target="_blank">Pre-print manuscript</a>
 

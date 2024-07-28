@@ -8,7 +8,5 @@ main:
     target: "_blank"
   - title: "Research"
     url: /research/
-  - title: "Posts"
-    url: /blog.html
   - title: "Teaching"
     url: /teaching/

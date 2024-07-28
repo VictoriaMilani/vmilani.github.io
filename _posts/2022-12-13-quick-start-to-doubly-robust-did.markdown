@@ -1,6 +1,7 @@
 ---
 layout: single
 title:  "Quick Start to Doubly Robust DID"
+classes: wide
 date:   2022-11-03 10:31:27 -0400
 categories: R
 ---
@@ -59,11 +60,10 @@ naive_model <- lm(Y ~ D + X1)
 naive_ATE <- coef(naive_model)["D"]
 
 r$> naive_ATE
-          D 
 -0.03488552 
 ```
 
-
+Specifications following a linear regression are common place, and even in a very simple setting in this quasi-RCT, results are far off.
 
 
 

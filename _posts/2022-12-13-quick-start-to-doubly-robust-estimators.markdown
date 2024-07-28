@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Quick Start to Doubly Robust DID"
+title:  "Quick Start to Doubly Robust Estimators"
 classes: wide
 date:   2022-11-03 10:31:27 -0400
 categories: R

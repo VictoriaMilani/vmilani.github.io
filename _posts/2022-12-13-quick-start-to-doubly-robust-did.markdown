@@ -1,15 +1,21 @@
 ---
-layout: post
+layout: single
 title:  "Quick Start to Doubly Robust DID"
 date:   2022-11-03 10:31:27 -0400
 categories: R
 ---
+In our first introduction to Causal Inference, we learned about difference-in-differences and propensity score weighting methods to estimate the average treatment effect conditional on covariates.
 
-# What is Doubly Robust?
+Covariates are the main cause of counfoundness in causal inference settings, so we should ask: which method should I use? Which one is the best method? Well, actually, you can use both to guarantee unbiased estimators!
 
-In our first introduction to Causal Inference, we learned about difference-in-differences and propensity score weighting to estimate the average treatment effect conditional on covariates.
+I think simulating data is a useful tool to understand the underlying econometric mechanism. Let us create a _very simple_ static labor market. Assume 10k workers, which at some point accumulated experience and are at some age.
 
-Covariates are the main cause of counfoundness in causal inference settings, so questions arise: which method should I use? Which one is the best method? Well, actually, you can use both to guarantee unbiased estimators!
+
+```r
+library(tidyverse)
+set.seed(123)
+n <- 10000
+```
 
 
 

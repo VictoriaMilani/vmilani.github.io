@@ -51,3 +51,20 @@ r$> mean(Y[D == 1]) - mean(Y[D == 0])
 [1] -0.8667278
 ```
 
+However, we know tau should be 0.5! -0.86 is too far away from the true parameter. Running a linear regression also does not solve the problem:
+
+
+```r
+naive_model <- lm(Y ~ D + X1)
+naive_ATE <- coef(naive_model)["D"]
+
+r$> naive_ATE
+          D 
+-0.03488552 
+```
+
+
+
+
+
+

@@ -9,7 +9,7 @@ categories: R
 
 In our first introduction to Causal Inference, we learned about difference-in-differences and propensity score weighting to estimate the average treatment effect conditional on covariates.
 
-Covariates are the main cause of counfoundness in causal inference settings, so the question arises what method should I use? Which one is the best method? Actually, you can use both to guarantee unbiased estimators.
+Covariates are the main cause of counfoundness in causal inference settings, so questions arise: which method should I use? Which one is the best method? Well, actually, you can use both to guarantee unbiased estimators!
 
 
 

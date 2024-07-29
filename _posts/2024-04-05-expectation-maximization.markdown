@@ -109,7 +109,7 @@ sum_finite <- function(x) {
 L <- 0
 ```
 
-I also created an auxiliar function to bypass values dangerously close to zero inside logs, as you see below:
+I also created an auxiliar function to bypass values dangerously close to zero inside logs, since we will deal with a lot of logs from now on, as you can see below:
 
 
 ```r

@@ -7,6 +7,8 @@ date:   2022-11-03 10:31:27 -0400
 categories: R
 ---
 
+This post is heavily inspired by Matheus Facure's [Here](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
+
 In a first introduction to Causal Inference, we learn about linear estimators and propensity score weighting methods to estimate the average treatment effect conditional on covariates.
 
 However, covariates are the main cause of counfoundness in causal inference settings, so we should ask: which method should I use? Which one is the best method? Well, actually, you can use both to guarantee unbiased estimators!
@@ -155,12 +157,18 @@ RMSE: 0.867579   Adj. R2: 0.147238
 
 Note that even with omitted covariates, when we use the propensity score weights as weighting parameters for the linear model, we get very close to the true parameter! Much better than 0.28.
 
-That is cool, but why is that? The secret is in the doubly robust estimator.
-
+That is cool, but why is that? The secret is in the doubly robust estimator:
 
 $$
 \widehat{ATE} = \frac{1}{N} \sum \left( \frac{T_i(Y_i - \hat{\mu}_1(X_i))}{\hat{P}(X_i)} + \hat{\mu}_1(X_i) \right) - \frac{1}{N} \sum \left( \frac{(1-T_i)(Y_i - \hat{\mu}_0(X_i))}{1-\hat{P}(X_i)} + \hat{\mu}_0(X_i) \right)
 $$
+
+If both models are correctly specified, we have nothing to worry about. What if the linear model is correct but the propensity model is incorrect?
+
+Note that for both parts, we have a $Y_i - \hat{\mu}_d(X_i)$. If the linear model is fine, $E[Y_i - \hat{\mu}_d(X_i)] = 0$, since this is just the residual of the linear regression! The entire component related to the propensity score goes to zero!
+
+If the propensity score is correct, you can isolate $\hat{\mu}_d(X_i)$. By doing that, you end up with the subtraction $T_i - \hat{P}(X_i)$ which in expectation is also zero. All good!
+
 
 
 

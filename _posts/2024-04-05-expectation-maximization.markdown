@@ -5,6 +5,7 @@ classes: wide
 use_math: true
 date:   2022-11-03 10:31:27 -0400
 categories: R
+excerpt: "This is a post explaining in gentle terms Gaussian Mixtures and the purpose of Expectation Maximization routines."
 ---
 
 The EM algorithm is a powerful iterative method for finding maximum likelihood estimates in statistical models with "latent variables" or missing data. It was first proposed by [Dempster, Laird, and Rubin, 1977](https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1977.tb01600.x?casa_token=a4oDLWp6MQQAAAAA%3AFERMoGtYF9u5EmMI9VScUGrfJ5VG05FGRKEoQ_5Gkg9VKHDQrclfHMhb0qzGM3GbkQ2RtbVUNQ-t3yyG), and since then it is a common tool in machine learning models.

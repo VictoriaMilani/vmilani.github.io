@@ -43,3 +43,5 @@ hist(lmarket$log_wage)
 Here I generated 10000 workers. Everytime a worker is hired, they draw their payment from a random normal distribution. If they are high types, they draw from $w_i \sim \mathcal{N}(4 , 0.5)$, with probability $P_{high} = 0.4$. On the other hand, low types draw their wages from $w_i \sim \mathcal{N}(2 , 0.5)$, with $P_{low} = 0.6$
 
 The last part of the code plots the log wage histogram of this labor market.
+
+

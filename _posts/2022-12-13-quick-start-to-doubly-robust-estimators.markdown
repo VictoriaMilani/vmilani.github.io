@@ -152,7 +152,7 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 RMSE: 0.867579   Adj. R2: 0.147238
 ```
 
-Note that even with omitted covariates, when we use the propensity score weights as weighting parameters for the linear model, we get very close to the true parameter! Much better than 0.28. We got the linear model wrong, but we got the propensity score right, combining them avoided biased estimates.
+Note that even with omitted covariates, when we use the propensity score weights as weighting parameters for the linear model, we get very close to the true parameter! Much better than 0.28.
 
 That is cool, but why is that?
 

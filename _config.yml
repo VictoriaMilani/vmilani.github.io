@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hsantanna88.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hsantanna
 github_username:  hsantanna88
-
+markdown: kramdown
 
 defaults:
   # _pages

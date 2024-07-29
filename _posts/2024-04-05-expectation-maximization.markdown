@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "A Gentle Introduction to the Expectation Maximization Algorithm"
+title:  "Expectation Maximization Algorithm and Gaussian Mixtures"
 classes: wide
 use_math: true
 date:   2022-11-03 10:31:27 -0400

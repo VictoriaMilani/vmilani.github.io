@@ -7,7 +7,9 @@ date:   2022-11-03 10:31:27 -0400
 categories: R
 ---
 
-This post is heavily inspired by Matheus Facure's [Here](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
+This post is heavily inspired by Matheus Facure's [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html). There you can find comprehensive tutorials of many causal inference models in Python.
+
+Here, I will provide a simple explanation on doubly robust using R's tidyverse.
 
 In a first introduction to Causal Inference, we learn about linear estimators and propensity score weighting methods to estimate the average treatment effect conditional on covariates.
 
@@ -169,6 +171,4 @@ Note that for both parts, we have a $Y_i - \hat{\mu}_d(X_i)$. If the linear mode
 
 If the propensity score is correct, you can isolate $\hat{\mu}_d(X_i)$. By doing that, you end up with the subtraction $T_i - \hat{P}(X_i)$ which in expectation is also zero. All good!
 
-
-
-
+So what can you do with it? How do we actually know what is the correct setting for propensity scores? There are many researchers looking out for this answer. Recently, the great [Pedro Sant'Anna and Jun Zhao](https://www.sciencedirect.com/science/article/abs/pii/S0304407620301901) provided a pathway to use difference-in-differences using doubly robust estimators. And, if you really wanna go deeper, [Edward H. Kennedy](https://arxiv.org/abs/2203.06469) provides a review of machine learning tools to estimate doubly robust parameters.

@@ -71,9 +71,9 @@ r$> naive_ATE
 [1] 0.2863138
 ```
 
-The true treatment effect of the training program is $tau = 0.5$. However, when calculating the ATE by simply finding average outcomes from treatment and control group, we are almost half far off the true value.
+The true treatment effect of the training program is $\tau = 0.5$. However, when calculating the ATE by simply finding average outcomes from treatment and control group, we are almost half far off the true value.
 
-This can also be verified using an incomplete linear model:
+This can also be verified using an incomplete linear model, where covariates are not included:
 
 ```r
 # Naive linear estimator
@@ -84,7 +84,27 @@ r$> wrong_linear
 [1] 0.2863138
 ```
 
-They are actually the same way of calculating a misspecified ATE. A good approach, therefore, is to calculate the propensity scores and find the ATE based on it. Let us assume we know the true relationship between the covariates and treatment assignment.
+Terrible estimates. In some cases, the sign even flips! So we should be _extra careful_ when estimating our parameters. Let us put back the covariates in the linear model and see if we can correctly estimate $\tau$:
+
+```r
+r$> # Correct linear estmator
+    correct_DiD <- feols(Y ~ treat + X1 + X2, data = df)
+    summary(correct_DiD)
+OLS estimation, Dep. Var.: Y
+Observations: 10,000 
+Standard-errors: IID 
+            Estimate Std. Error   t value  Pr(>|t|)    
+(Intercept) 0.000557   0.006062  0.091834   0.92683    
+treat       0.511810   0.011573 44.224591 < 2.2e-16 ***
+X1          0.249916   0.005092 49.077613 < 2.2e-16 ***
+X2          0.247565   0.005191 47.687099 < 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 0.502913   Adj. R2: 0.341397
+```
+We found 0.51, and our statistically significant range covers the true value. Not bad. So as long as we know the true specification of the linear model, we can get away with the noise created by the covariate relationship.
+
+That is cool. But what if we want to use a propensity score weighting method to calculate the ATE? Let's see:
 
 ```r
 # correct propensity scores
@@ -108,25 +128,34 @@ r$> correct_PS
 [1] 0.5085938
 ```
 
-Wow! We actually got very close to the true estimate! Using the correct specification of the linear model also gives us a more correct estimate:
+In this line of code, we create using the _feglm_ function a logistic model to find the likelihood of treatment based on X1 and X2. We then construct the propensity score weights by finding the inverse of these likelihoods based on treatment assignment.
+
+Why invert it? The logic can be quite simple: we impose heavier weights on rarity. That is, a treated observation that is very similar to control is more valuable than otherwise. The same is applied for the untreated group. If their propensity score is high, even though they were untreated, we give them more importance. 
+
+The estimate of 0.508 is not bad! Definitely a very good approximation! We could even construct a bootstrap standard error for this estimate by resampling our data and recalculating over and over. But let us focus on the real star of the show: doubly robust.
+
+The main problem is that we don't know sometimes the true relationship in our models. So the beauty of doubly robust is that even if we get it wrong in the propensity score or the linear model, we get unbiased estimates!
 
 ```r
-r$> # Correct linear estmator
-    correct_DiD <- feols(Y ~ treat + X1 + X2, data = df)
-    summary(correct_DiD)
+r$> # DR with misspecified linear model
+    dr_lm_misspecified <- feols(Y ~ treat, data = df, weights = df$weight)
+    summary(dr_lm_misspecified)
 OLS estimation, Dep. Var.: Y
 Observations: 10,000 
+Weights: df$weight 
 Standard-errors: IID 
             Estimate Std. Error   t value  Pr(>|t|)    
-(Intercept) 0.000557   0.006062  0.091834   0.92683    
-treat       0.511810   0.011573 44.224591 < 2.2e-16 ***
-X1          0.249916   0.005092 49.077613 < 2.2e-16 ***
-X2          0.247565   0.005191 47.687099 < 2.2e-16 ***
+(Intercept) 0.001506   0.008672  0.173704    0.8621
+treat       0.510292   0.012278 41.562297 < 2.2e-16 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-RMSE: 0.502913   Adj. R2: 0.341397
+RMSE: 0.867579   Adj. R2: 0.147238
 ```
 
-Not bad. The problem is that we most of the times don't know the true relationship between treatment assignment, outcome and covariates. 
+Note that even with omitted covariates, when we use the propensity score weights as weighting parameters for the linear model, we get very close to the true parameter! Much better than 0.28. We got the linear model wrong, but we got the propensity score right, combining them avoided biased estimates.
+
+That is cool, but why is that?
+
+
 
 

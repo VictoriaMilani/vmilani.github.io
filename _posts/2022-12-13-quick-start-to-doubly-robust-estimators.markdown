@@ -135,7 +135,7 @@ Why invert it? The logic can be quite simple: we impose heavier weights on rarit
 
 The estimate of 0.508 is not bad! Definitely a very good approximation! We could even construct a bootstrap standard error for this estimate by resampling our data and recalculating over and over. But let us focus on the real star of the show: doubly robust.
 
-The main problem is that we don't know sometimes the true relationship in our models. So the beauty of doubly robust is that even if we get it wrong in the propensity score or the linear model, we get unbiased estimates!
+The main idea is that we don't know sometimes the true relationship in our models. What how is the covariates affecting treatment assignment? What is the correct setting for the linear model? So the beauty of doubly robust is that even if we get it wrong in the propensity score or the linear model, we get unbiased estimates when combining both!
 
 ```r
 r$> # DR with misspecified linear model
@@ -155,8 +155,12 @@ RMSE: 0.867579   Adj. R2: 0.147238
 
 Note that even with omitted covariates, when we use the propensity score weights as weighting parameters for the linear model, we get very close to the true parameter! Much better than 0.28.
 
-That is cool, but why is that?
+That is cool, but why is that? The secret is in the doubly robust estimator.
 
+
+\begin{equation}
+\widehat{ATE} = \frac{1}{N} \sum \left( \frac{T_i(Y_i - \hat{\mu}_1(X_i))}{\hat{P}(X_i)} + \hat{\mu}_1(X_i) \right) - \frac{1}{N} \sum \left( \frac{(1-T_i)(Y_i - \hat{\mu}_0(X_i))}{1-\hat{P}(X_i)} + \hat{\mu}_0(X_i) \right)
+\end{equation}
 
 
 

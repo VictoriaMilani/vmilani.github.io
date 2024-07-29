@@ -7,9 +7,7 @@ date:   2022-11-03 10:31:27 -0400
 categories: R
 ---
 
-This post is heavily inspired by Matheus Facure's [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html). There you can find comprehensive tutorials of many causal inference models in Python.
-
-Here, I will provide a simple explanation on doubly robust using R's tidyverse.
+Here, I will provide a simple explanation on doubly robust estimators using R's tidyverse. This post is heavily inspired by Matheus Facure's [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html). There you can find comprehensive tutorials of many causal inference models in Python.
 
 In a first introduction to Causal Inference, we learn about linear estimators and propensity score weighting methods to estimate the average treatment effect conditional on covariates.
 

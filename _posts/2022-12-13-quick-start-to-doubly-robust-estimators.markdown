@@ -158,9 +158,9 @@ Note that even with omitted covariates, when we use the propensity score weights
 That is cool, but why is that? The secret is in the doubly robust estimator.
 
 
-\begin{equation}
+$$
 \widehat{ATE} = \frac{1}{N} \sum \left( \frac{T_i(Y_i - \hat{\mu}_1(X_i))}{\hat{P}(X_i)} + \hat{\mu}_1(X_i) \right) - \frac{1}{N} \sum \left( \frac{(1-T_i)(Y_i - \hat{\mu}_0(X_i))}{1-\hat{P}(X_i)} + \hat{\mu}_0(X_i) \right)
-\end{equation}
+$$
 
 
 

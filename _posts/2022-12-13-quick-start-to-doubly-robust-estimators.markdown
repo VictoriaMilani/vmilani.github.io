@@ -71,7 +71,7 @@ r$> naive_ATE
 [1] 0.2863138
 ```
 
-The true treatment effect of the training program is $\tau = 0.5$. However, when calculating the ATE by simply finding average outcomes from treatment and control group, we are almost half far off the true value.
+The true treatment effect of the training program is \\(\tau = 0.5\\). However, when calculating the ATE by simply finding average outcomes from treatment and control group, we are almost half far off the true value.
 
 This can also be verified using an incomplete linear model, where covariates are not included:
 
@@ -84,7 +84,7 @@ r$> wrong_linear
 [1] 0.2863138
 ```
 
-Terrible estimates. In some cases, the sign even flips! So we should be _extra careful_ when estimating our parameters. Let us put back the covariates in the linear model and see if we can correctly estimate $\tau$:
+Terrible estimates. In some cases, the sign even flips! So we should be _extra careful_ when estimating our parameters. Let us put back the covariates in the linear model and see if we can correctly estimate \\(\tau\\):
 
 ```r
 r$> # Correct linear estmator

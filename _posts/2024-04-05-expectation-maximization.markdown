@@ -14,7 +14,9 @@ Actually, it is simple, but tricky. The core idea is to iteratively alternate be
 - Expectation (E) step: Estimate the missing data given the observed data and current parameter estimates.
 - Maximization (M) step: Update the parameters to maximize the likelihood, treating the estimated missing data as if it were observed.
 
-Eventually (hopefully) the algorithm converges. This is particularlly useful for Gaussian mixture models. Say we observe a labor market data with logarithm wages and we suspect it actually is composed of two types of workers: low types, and high types. However, we don't observe the worker type, we only observe the social identifier and their payment.
+Eventually (hopefully) the algorithm converges. This is particularlly useful for Gaussian mixture models. 
+
+Say we observe a labor market data with logarithm wages and we suspect it actually is composed of two types of workers: low types, and high types. However, we don't observe the worker type, we only observe the social identifier and their payment. Assume just one firm with a constant rent-sharing policy, that is, no matter the type or the worker, their wage in expectation is simply the average value of their types.
 
 Let us construct this labor market:
 
@@ -38,6 +40,6 @@ X11()
 hist(lmarket$log_wage)
 ```
 
-Here I generated 10000 workers. Everytime a worker is hired, they draw their payment from a random normal distribution. If they are high types, they draw from $w_i ~ N(4 , 0.5)$, with probability $P_{high} = 0.4$. On the other hand, low types draw their wages from $w_i ~ N(2 , 0.5)$, with $P_{low} = 0.6$
+Here I generated 10000 workers. Everytime a worker is hired, they draw their payment from a random normal distribution. If they are high types, they draw from $w_i \tilde N(4 , 0.5)$, with probability $P_{high} = 0.4$. On the other hand, low types draw their wages from $w_i \tilde N(2 , 0.5)$, with $P_{low} = 0.6$
 
 The last part of the code plots the log wage histogram of this labor market.

@@ -45,6 +45,6 @@ Here I generated 10000 workers. Everytime a worker is hired, they draw their pay
 The last part of the code plots the log wage histogram of this labor market.
 
 
-[Log Wage Histogram](/assets/images/hist_logwage.png)
+![Log Wage Histogram](/assets/images/hist_logwage.png)
 
 

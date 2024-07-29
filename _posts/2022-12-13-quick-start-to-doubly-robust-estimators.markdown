@@ -2,6 +2,7 @@
 layout: single
 title:  "Quick Start to Doubly Robust Estimators"
 classes: wide
+use_math: true
 date:   2022-11-03 10:31:27 -0400
 categories: R
 ---

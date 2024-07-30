@@ -77,7 +77,7 @@ hist(lmarket$log_wage, breaks = 100)
 
 ![Log Wage Histogram](/assets/images/hist_logwage.png)
 
-Notice how we can barely see the mixture components in this histogram. In real-world data, wages are all over the place the same way this plot shows. However, if we are to believe a particular human capital amount has a direct effect on potential income, it is hard to conclude all workers are drawing from a single distribution function. There must "hidden" distributions blended together. So how do we extract them?
+Notice how we can barely see the mixture components in this histogram. In real-world data, wages are all over the place the same way this plot shows. However, if we are to believe a particular human capital amount has a direct effect on potential income, it is hard to conclude all workers are drawing from a single distribution function. There must be "hidden" distributions blended together. So how do we extract them?
 
 The first step is to guess the initial moments and priors. For the guess, we can use a simple k-means routine to slice the data. Since _we know_ this mixture has two components, we slice the data in 2 parts.
 

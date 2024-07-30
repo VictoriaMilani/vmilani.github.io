@@ -14,7 +14,7 @@ author: Hugo Sant'Anna
 <div style="border: 2px solid #874caf; padding: 10px; background-color: #f2e8f5; margin-bottom: 20px;">
   <strong>I updated my [blog](/posts) posts: </strong> <br />
   1- Check out a short intro on doubly robust estimators [here](https://hsantanna.org/r/2022/11/03/quick-start-to-doubly-robust-estimators.html) <br />
-  2- I also wrote a short introduction to Gaussian Mixtures in R. Check it out [here](https://hsantanna.org/r/2022/11/03/expectation-maximization.html))
+  2- I also wrote a short introduction to Gaussian Mixtures in R. Check it out [here](https://hsantanna.org/r/2022/11/03/expectation-maximization.html)
 </div>
 
 I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).

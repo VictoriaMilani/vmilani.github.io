@@ -20,6 +20,7 @@ author: Hugo Sant'Anna
 I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
 My research interests are labor economics and applied econometrics. I am particularly interested in how labor markets shape wages.
+
 ---
 In my job market paper, I employ a Gaussian mixture model on a large administrative data to measure how worker-firm assortativity affects the gender wage gap. [[details](/workingpapers/assortmatch)]
 ---

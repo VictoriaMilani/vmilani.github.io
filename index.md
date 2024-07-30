@@ -27,7 +27,7 @@ In my job market paper, I employ a Gaussian mixture model on a large administrat
 
 ---
 
-In my second year paper, I employ a doubly robust DID model on administrative data to show how complementarity between formal and the informal markets can positively and negatively affect wages. (R&R \@ JEG) [[details](/workingpapers/vzcrisis)]
+In my second year paper, I employ a doubly robust DID model on administrative data to show how complementarity between formal and the informal markets can positively and negatively affect wages. (R&R @ JEG) [[details](/workingpapers/vzcrisis)]
 
 ---
 

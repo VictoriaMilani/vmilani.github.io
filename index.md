@@ -35,9 +35,7 @@ I am also working on a more theoretical econometrics paper to provide imputation
 
 ---
 
-I will be on the 2024/2025 job market.
-
-My <a href="files/hsantannaCV.pdf">curriculum vitae</a>
+I will be on the **2024/2025 job market**. My <a href="files/hsantannaCV.pdf">CV</a>.
 
 Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
 

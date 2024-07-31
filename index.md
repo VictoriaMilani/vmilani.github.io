@@ -7,6 +7,10 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
+I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
+
+My research interests are **labor economics** and **applied econometrics**. I am particularly interested in how labor market features shape wages, including gender and immigration.
+
 <div style="border: 2px solid #4CAF50; padding: 10px; background-color: #E8F5E9; margin-bottom: 20px;">
   <strong>My paper The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market got an R&R in the Journal of Economic Geography!</strong>
 </div>
@@ -16,10 +20,6 @@ author: Hugo Sant'Anna
   1- Check out a short intro on doubly robust estimators <a href="https://hsantanna.org/r/2022/11/03/quick-start-to-doubly-robust-estimators.html">here</a> <br />
   2- I also wrote a short introduction to Gaussian Mixtures in R. Check it out <a href="https://hsantanna.org/r/2022/11/03/expectation-maximization.html">here</a>
 </div>
-
-I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
-
-My research interests are **labor economics** and **applied econometrics**. I am particularly interested in how labor market features shape wages, including gender and immigration.
 
 ---
 

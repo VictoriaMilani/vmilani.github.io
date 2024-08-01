@@ -8,9 +8,11 @@ permalink: /teaching/
 
 ## Instructor of Record
 
+_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_
+
 Principles of Macroeconomics (Summer 2023, Spring 2024)
 
-_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_
+
 
 ## Teaching Assistantships
 

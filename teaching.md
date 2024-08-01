@@ -10,7 +10,7 @@ permalink: /teaching/
 
 _Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_
 
-Principles of Macroeconomics (Summer 2023, Spring 2024)
+* Principles of Macroeconomics (Summer 2023, Spring 2024)
 
 
 

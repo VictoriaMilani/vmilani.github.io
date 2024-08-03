@@ -20,7 +20,7 @@ I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https:
 </div>
 
 ---
-My work connects labor economics with econometric tools. Select Projects: 
+My work connects labor economics with econometric tools. Select works: 
 
 - [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) - Using Gaussian mixtures to find worker-firm assortativity contribution to the gender wage gap.
   

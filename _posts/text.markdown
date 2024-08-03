@@ -61,7 +61,7 @@ ggplot() +
   theme(legend.position = "bottom")
 ```
 
-![CDF with a bunching at zero](/assets/images/bunch_CDF.png){:width="400px"}
+![CDF with a bunching at zero](/assets/images/bunch_CDF.png){: .small-image}
 
 
 

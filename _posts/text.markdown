@@ -61,3 +61,5 @@ ggplot() +
   theme(legend.position = "bottom")
 ```
 
+![CDF with a bunching at zero](/assets/images/bunch_CDF.png)
+

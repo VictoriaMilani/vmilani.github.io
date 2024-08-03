@@ -7,9 +7,7 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
-I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
-
-My research interests are **labor economics** and **applied econometrics**. I am particularly interested in how labor market features shape wages, including gender and immigration.
+I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/). My research interests are **labor economics** and **applied econometrics**. I am particularly interested in how labor market features shape wages, including gender and immigration.
 
 <div style="border: 2px solid #4CAF50; padding: 10px; background-color: #E8F5E9; margin-bottom: 20px;">
   <strong>My paper The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market got an R&R in the Journal of Economic Geography!</strong>
@@ -22,16 +20,13 @@ My research interests are **labor economics** and **applied econometrics**. I am
 </div>
 
 ---
+My work connects labor economics with econometric tools. Select Projects: 
 
-In my job market paper, I employ a Gaussian mixture model on a large administrative data to measure how worker-firm assortativity affects the gender wage gap. [[details](/workingpapers/assortmatch)]
-
----
-
-In my second year paper, I employ a doubly robust DID model on administrative data to show how complementarity between formal and the informal markets can positively and negatively affect wages. (R&R @ JEG) [[details](/workingpapers/vzcrisis)]
-
----
-
-I am also working on a more theoretical econometrics paper to provide imputation methods to covariates that may be affected by treatment. [[details](/workingpapers/badcontrols)]
+- [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) - Using Gaussian mixtures to find worker-firm assortativity contribution to the gender wage gap.
+  
+- [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ JEG) - Doubly Robust DID to investigate informal-formal sector wage dynamics during an immigration crisis.
+  
+- [Difference in Differences with Time-Varying Covariates](/workingpapers/badcontrols) - How to proceed when covariates are contaminated with treatment?
 
 ---
 

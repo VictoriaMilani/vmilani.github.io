@@ -24,7 +24,7 @@ My work connects labor economics with econometric tools. Selected works:
 
 - [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) - Using Gaussian mixtures to find worker-firm assortativity contribution to the gender wage gap.
   
-- [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ JEG) - Doubly Robust DID to investigate informal-formal sector wage dynamics during an immigration crisis.
+- [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ _Journal of Economic Geography_) - Doubly Robust DID to investigate informal-formal sector wage dynamics during an immigration crisis.
   
 - [Difference in Differences with Time-Varying Covariates](/workingpapers/badcontrols) - How to proceed when covariates are contaminated with treatment?
 

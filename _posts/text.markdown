@@ -8,6 +8,10 @@ categories: R
 excerpt: "This is a post explaining in gentle terms Gaussian Mixtures and the purpose of Expectation Maximization routines."
 ---
 
+Here I will explain the basic concepts of bunching as a causal inference method. The data provided here is constructed in R for the sake of example. In the end, I will show how I constructed the data.
+
+### The Naive Approach
+
 Imagine that you are interested in the causal effect of smoking on birth weights. Say you observe a covariate, _mom's education_, and you are willing to control for that.
 
 Okay, that sounds good. Perhaps people with more education are more inclined to not smoke, better healthcare and etc. For simplicity, you could impose a linear model, which makes the expression:
@@ -45,23 +49,100 @@ F-statistic:  1053 on 2 and 997 DF,  p-value: < 2.2e-16
 
 _bw_ is the birthweight, measured in grams. You have the average number of cigarettes smoked by the mom in _cigs_, and her education level in _educ_.
 
-Do notice something _weird_ about this regression? Can you say that for every cigarette smoked per day, the baby loses about 40 grams when they are born?
+Do you notice something _weird_ about this regression? Can you say that for every cigarette smoked per day, the baby loses about 40 grams when they are born?
 
-**Probably not.**
+### Probably Not!
 
 This is why it is important to always have economic intuition as your sanity check.
 
-The hint, and this is probably where your advisor would point out, lies on the educ coefficient. _-0.7?_ That seems off, right? It implies babies are worse off as we increase the mom's education.
+The hint, and this is where your advisor would point out, lies on the educ coefficient. _-0.7?_ That seems off, right? It implies babies are worse off as we increase the mom's education level.
 
 What is happening here then?
 
-The problem relies on what we do not observe in the data. What if there is a variable, let's call it $\eta$, in which influences not only directly birth weights, but also the propensity to smoke?
+The problem relies on what we do not observe in the data. What if there is a variable, unobserved $\eta$ in which influences not only directly birth weights, but also the propensity to smoke?
+
+Let us make a pretty DAG representing this using the awesome package ggdag:
+
+```r
+
+
+# Making cool DAGs with ggdag
+library(tidyverse)
+library(ggdag)
+
+
+# Create the DAG
+dag <- dagify(
+  bw ~ cigs + educ + eta,
+  cigs ~ educ + eta,
+  labels = c(
+    "bw" = "Birth Weight",
+    "cigs" = "Cigarettes",
+    "educ" = "Education",
+    "eta" = "Unobserved\nFactors"
+  ),
+  exposure = "cigs",
+  outcome = "bw"
+)
+
+# Create a prettier plot
+X11()
+
+ggdag_dseparated(dag, "eta", text = FALSE, use_labels = "label") +
+  theme_dag_blank()+
+  theme(legend.position = "none")
+
+```
+
+I use the dseparated function to highlight the confounder path. It looks like this:
 
 ![Causal Path](/assets/images/bunch_dag.png)
 
-If that is the case, not only we are probably overestimating the cigarette effect.
+Notice there are 3 causal path to birth weights. The first is a direct path from education, another direct path from this _$\eta$ variable_, and another one, where cigarettes act as a _mediator variable_ between the explanatory, confounder, and the explained variable.
 
+If that is the case, not only we are assuming erroneously the causal relationship between cigs and birth weights, we are probably messing with the education causal path.
 
+So how to solve this problem? This is where **bunching** comes into play.
+
+The key assumption here is that there is a proxy path between smoking cigarettes and covariates. Let us say that individuals have a propensity to smoke, like an utility function. Some individuals maximize this utility by smoking large quantities of cigarettes. Other individuals, however, are _very_ aversed to cigarettes. They find it very repulsive in such way that they would pay not to smoke, if that was the case. There are also the _marginally propensed_ to smoke. These moms would smoke given a chance, but they are slightly better off not smoking.
+
+The implication of this assumption is interesting because we _partially_ observe this mechanism. That is, we only observe individuals that are positively inclined to smoke! There is absolutely no way we can see individuals smoking negative numbers of cigarettes. However, what happens if we plot the relationship between cigarettes and birth weights?
+
+```r
+data <- data.frame(cigs = cigs, bw = round(bw, 0))
+
+ggplot(data, aes(x = cigs, y = bw)) +
+  geom_point(aes(color = cigs), alpha = 0.6, size = 3) +
+  geom_smooth(method = "lm", color = "red", fill = "pink", alpha = 0.2) +
+  scale_color_gradient(low = "lightblue", high = "darkblue") +
+  labs(title = "Cigarette Consumption versus Birth Weight",
+       x = "Number of Cigarettes Smoked per Day",
+       y = "Birth Weight (grams)",
+       color = "Cigarettes\nper Day") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold", size = 16, hjust = 0.5),
+    axis.title = element_text(face = "bold"),
+    legend.position = "right",
+    panel.grid.minor = element_blank(),
+    panel.background = element_rect(fill = "white", color = NA),
+    plot.background = element_rect(fill = "white", color = NA)
+  )
+```
+
+I am rounding the birth weight to be integer in grams (remember this is a simulated data!) I am beautifying the plot so we can have a nice time observing it:
+
+![cigversusbw](/assets/images/cig_bw_plot.png)
+
+What is catching your eyes? Notice that this is a pretty linear relationship, until it is not: as soon as we reach 0 cigarettes, we observe a **bunching** pattern of birth weights.
+
+The right question here is "why are there so many data points accumulated at the zero cigarettes?" This is the puzzle we must solve.
+
+The answer is: there is a variable, that we do not observe, that "runs" in that relationship continuously and accepts negative values of cigarettes. This variable is affected by both observables (the education of the mom) and the unobservables ($\eta$). Therefore, if we could _capture_ this variable, we could isolate the relationship between cigarettes and birth weights without the counfounding $\eta$ factor.
+
+Going back to metrics language:
+
+$$X = max\{0, X* \}$$
 
 
 

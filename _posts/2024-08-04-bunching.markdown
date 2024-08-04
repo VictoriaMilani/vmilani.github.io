@@ -98,7 +98,7 @@ I use the dseparated function to highlight the confounder path. It looks like th
 
 ![Causal Path](/assets/images/bunch_dag.png)
 
-Notice there are 3 causal path to birth weights. The first is a direct path from education, another direct path from this _$\eta$ variable_, and another one, where cigarettes act as a _mediator variable_ between the explanatory, confounder, and the explained variable.
+Notice there are 3 causal path to birth weights. The first is a direct path from education, another direct path from this $\eta$ variable, and another one, where cigarettes act as a _mediator variable_ between the explanatory, confounder, and the explained variable.
 
 If that is the case, not only we are assuming erroneously the causal relationship between cigs and birth weights, we are probably messing with the education causal path.
 

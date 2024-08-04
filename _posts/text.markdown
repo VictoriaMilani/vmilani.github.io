@@ -10,11 +10,11 @@ excerpt: "This is a post explaining in gentle terms Gaussian Mixtures and the pu
 
 Imagine that you are interested in the causal effect of the usage of video games on school outcomes. Say you observe a covariate, _parents' education_, and you are willing to control for that.
 
-Okay, that sounds good. For simplicity, we could impose some linearity, which makes the expression:
+Okay, that sounds good. For simplicity, we could impose a linear model, which makes the expression:
 
 $$y_i = \beta X_i + \gamma Z_i + \varepsilon_i$$
 
-
+where $y_i$ is the school outcome of kid $i$, $X_i$ is your explanatory variable, video game usage, and $Z_i$ is the parents' education. $\varepsilon_i$ is a random shock following a normal distribution where $\mathbb{E}[\varepsilon | X, Z] = 0$.
 
 
 There are many things in our lives that are strictly positive. For example, how many hours do you spend reading a book? I am certainly it is at least zero. Nobody reads minus two hours of books per day.

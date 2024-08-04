@@ -1,14 +1,14 @@
 ---
 layout: single
-title:  "Expectation Maximization Algorithm and Gaussian Mixtures"
+title:  "So, what is bunching?"
 classes: wide
 use_math: true
 date:   2022-11-03 10:31:27 -0400
 categories: R
-excerpt: "This is a post explaining in gentle terms Gaussian Mixtures and the purpose of Expectation Maximization routines."
+excerpt: "This is a brief introduction of bunching analysis in data as a causal method. The data used here has been constructed, using a basic example based on [Caetano 2015](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA11231)"
 ---
 
-Here I will explain the basic concepts of bunching as a causal inference method. The data provided here is constructed in R for the sake of example. In the end, I will show how I constructed the data.
+Here I will explain the basic concepts of bunching as a causal inference method. The data provided here is constructed in R for the sake of example. You can check the full code [here](placeholder)
 
 ### The Naive Approach
 
@@ -159,9 +159,11 @@ After that, we can exogenously capture the relationship between $Y$ and $X$. If 
 
 $$\mathbb{E}[Y|X,Z] = X\beta + Z'(\gamma - \pi \delta) + \delta(X + \mathbb{E}[X^* | X^* <= 0, Z]\mathbb{1}(X = 0))$$
 
+It seems complicated, but the trick is that we imput $\mathbb{E}[X^* | X^* <= 0, Z]\mathbb{1}(X = 0)$ as a proxy for when X becomes 0, meaning we now "observe" negative values for smoking cigarettes.
 
+What is that actually doing? It is actually accounting for the unobservable which confounds our causal path.
 
-Since our data is censored at zero, we can recover the running variable using a tobit model. This is straightforward in R:
+Since our data is censored at zero and we assume linearity, we can recover this component using a tobit model. This is straightforward in R:
 
 ```r
 library(AER)
@@ -170,7 +172,7 @@ library(AER)
 tobit_model <- tobit(cigs ~ educ, left = 0)
 summary(tobit_model)
 
-cigs_input <- ifelse(cigs == 0, predict(tobit_model), cigs)
+cigs_imput <- ifelse(cigs == 0, predict(tobit_model), cigs)
 ```
 
 ```r
@@ -196,69 +198,52 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 The fitted tobit model tell us that increasing education by one level decreases cigarette consumption by around 2.2. This is good enough since the model I constructed assumes this relationship to be 2. The noise comes from the fact that 80 percent of the data do not smoke. Still, it is a good approximation given the standard error.
 
-
-
-
-
-
-
-
-
-
-2.6 and statistically significant. That looks awesome. You get excited and show this to your advisor. However, as you may well know, they were not _that_ excited.
-
-There are many things in our lives that are strictly positive. For example, how many hours do you spend reading a book? I am certainly it is at least zero. Nobody reads minus two hours of books per day.
-
-This is the essence of the bunching principle: sometimes, supposedly continuous variables exhibit a spike of positive probability concentration at a point. In the above example, one _may or may not_ read in their free time, but if they read, the time spent behaves as a continuous variable.
-
-I believe a straightforward example of example is birth weight _versus_ cigarette smokers. Let us first create the first variable in our dataset: average cigarettes per day.
-
+Notice that I also made the cigs_imput variable. The remaining task is to fit the full linear model:
 
 ```r
-# Load necessary libraries
-library(MASS)     # for negative binomial distribution
-library(tidyverse) # tidy data manipulation
-
-# Set seed for reproducibility
-set.seed(123)
-
-# Set parameters
-n <- 1000          # number of observations
-p_nonsmoker <- 0.3 # proportion of non-smokers
-mu <- 15           # mean number of cigarettes per day for smokers
-size <- 3          # dispersion parameter (smaller values indicate more dispersion)
-
-# Simulate data
-nonsmokers <- rep(0, round(n * p_nonsmoker))
-smokers <- rnegbin(n - length(nonsmokers), mu = mu, theta = size)
-cigarettes <- c(nonsmokers, smokers)
-
-df <- tibble(cigarettes = cigarettes)
+# Fit linear model
+lm_model <- lm(bw ~ cigs + cigs_input + educ)
 ```
 
-Here we called the MASS and the tidyverse library to construct our dataset. I generated 1000 observations, where 30 percent is non-smokers (this may be unrealistic, but it is just for the sake of an example).
-
-We require the other parameters to generate the negative binomial distribution.
-
-We can quickly plot the CDF of this variable to show the bunching pattern:
 ```r
-# Calculate empirical CDF
-df_cdf <- df %>%
-  arrange(cigarettes) %>%
-  mutate(cdf = cumsum(cigarettes) / sum(cigarettes),
-         ecdf = seq_along(cigarettes) / n)
+r$> summary(lm_model)
 
-X11()
-# Create CDF plot
-ggplot() +
-  geom_step(data = df_cdf, aes(x = cigarettes, y = ecdf), color = "blue", size = 1) +
-  labs(title = "CDF of Daily Cigarette Consumption",
-       x = "Number of Cigarettes",
-       y = "Cumulative Probability",
-       color = "CDF Type") +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+Call:
+lm(formula = bw ~ cigs + educ + cigs_input)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-470.22 -118.78   -3.42  111.13  505.48 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 3124.4780    26.1223  119.61   <2e-16 ***
+cigs         -20.5694     1.7417  -11.81   <2e-16 ***
+educ         -22.0509     2.3737   -9.29   <2e-16 ***
+cigs_input   -10.8197     0.8918  -12.13   <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 166.1 on 996 degrees of freedom
+Multiple R-squared:  0.7201,    Adjusted R-squared:  0.7193
+F-statistic: 854.2 on 3 and 996 DF,  p-value: < 2.2e-16
 ```
 
-![CDF with a bunching at zero](/assets/images/bunch_CDF.png)
+The original $\beta$ value for the constructed data is $-20$. That is fantastically close! And almost _half_ in magnitude of the predicted naive OLS. Meaning the imputation method successfully managed to remove endogeneity from average smoked cigarettes per day.
+
+### That is cool but... where is _randomness_?
+
+Causal experiments usually rely on random shocks or exogenous "manipulation" that is as good as random to build their identification strategy. But in this case, there is no randomness, right? Individuals bunched at zero simply because they _can't_ smoke less than zero. Their propensity to smoke is _hardwired_ in their utility function.
+
+I think the correct way to ponder over this question is to understand _why we require randomness_ in the first place. We need randomness in causal experiments to make sure unobservables are not affecting the treatment effect. In bunching, we exploit the bunched values to reach the unobservable confounder and ultimately control for that.
+
+### Some final notes
+
+Bunching can definitely increase in complexity. As you are probably guessing by now, we don't need to assume normality or a linear model. We don't even need to impose parametrization! For a deeper overview of the method, I suggest reading [Bertanha, et al. (2024)](https://link.springer.com/referenceworkentry/10.1007/978-3-319-57365-6_382-1)
+
+
+
+
+
+
 

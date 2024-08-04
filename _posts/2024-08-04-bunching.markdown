@@ -203,14 +203,14 @@ Notice that I also made the cigs_imput variable. The remaining task is to fit th
 
 ```r
 # Fit linear model
-lm_model <- lm(bw ~ cigs + cigs_input + educ)
+lm_model <- lm(bw ~ cigs + cigs_imput + educ)
 ```
 
 ```r
 r$> summary(lm_model)
 
 Call:
-lm(formula = bw ~ cigs + educ + cigs_input)
+lm(formula = bw ~ cigs + educ + cigs_imput)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
@@ -221,7 +221,7 @@ Coefficients:
 (Intercept) 3124.4780    26.1223  119.61   <2e-16 ***
 cigs         -20.5694     1.7417  -11.81   <2e-16 ***
 educ         -22.0509     2.3737   -9.29   <2e-16 ***
-cigs_input   -10.8197     0.8918  -12.13   <2e-16 ***
+cigs_imput   -10.8197     0.8918  -12.13   <2e-16 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 

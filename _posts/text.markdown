@@ -8,6 +8,15 @@ categories: R
 excerpt: "This is a post explaining in gentle terms Gaussian Mixtures and the purpose of Expectation Maximization routines."
 ---
 
+Imagine that you are interested in the causal effect of the usage of video games on school outcomes. Say you observe a covariate, _parents' education_, and you are willing to control for that.
+
+Okay, that sounds good. For simplicity, we could impose some linearity, which makes the expression:
+
+$$y_i = \beta X + \gamma Z + \varepsilon$$
+
+
+
+
 There are many things in our lives that are strictly positive. For example, how many hours do you spend reading a book? I am certainly it is at least zero. Nobody reads minus two hours of books per day.
 
 This is the essence of the bunching principle: sometimes, supposedly continuous variables exhibit a spike of positive probability concentration at a point. In the above example, one _may or may not_ read in their free time, but if they read, the time spent behaves as a continuous variable.

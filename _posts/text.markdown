@@ -12,7 +12,7 @@ Imagine that you are interested in the causal effect of the usage of video games
 
 Okay, that sounds good. For simplicity, we could impose some linearity, which makes the expression:
 
-$$y_i = \beta X + \gamma Z + \varepsilon$$
+$$y_i = \beta X_i + \gamma Z_i + \varepsilon_i$$
 
 
 

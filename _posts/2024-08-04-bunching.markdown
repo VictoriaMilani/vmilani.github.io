@@ -18,7 +18,7 @@ Okay, that sounds good. Perhaps people with more education are more inclined to 
 
 $$y_i = \beta X_i + \gamma Z_i + \varepsilon_i$$
 
-Where $y_i$ is the birth weight of baby $i$, $X_i$ is your explanatory variable, number of cigarettes smoked by baby $i$'s mom, and $Z_i$ is the mom's education. $\varepsilon_i$ is a random shock following a normal distribution where $\mathbb{E}(\varepsilon | X, Z) = 0$.
+Where $y_i$ is the birth weight of baby $i$, $X_i$ is your explanatory variable, number of cigarettes smoked by baby $i$'s mom, and $Z_i$ is the mom's education. $\varepsilon_i$ is a random shock following a normal distribution where $\mathbb{E}(\varepsilon \| X, Z) = 0$.
 
 Say you have these variables in R in a pretty neat dataset, so you run the regression and, excited, promptly shows the results to your advisor:
 

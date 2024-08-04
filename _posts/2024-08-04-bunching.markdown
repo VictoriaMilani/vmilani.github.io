@@ -8,7 +8,7 @@ categories: R
 excerpt: "This is a brief introduction of bunching analysis in data as a causal method. The data used here has been constructed, using a basic example based on [Caetano 2015](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA11231)"
 ---
 
-Here I will explain the basic concepts of bunching as a causal inference method. The data provided here is constructed in R for the sake of example. You can check the full code [here](placeholder)
+Here I will explain the basic concepts of bunching as a causal inference method. The data provided here is constructed in R for the sake of example. You can check the full code [here]([placeholder](https://github.com/hsantanna88/bunching_example))
 
 ### The Naive Approach
 

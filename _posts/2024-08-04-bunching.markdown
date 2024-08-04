@@ -158,9 +158,9 @@ So our objective is to recover this $X^*$ and use it as a proxy for $\eta$. If w
 
 After that, we can exogenously capture the relationship between $Y$ and $X$. If you combine the last three equations and do some math (using matrix notation now), you reach:
 
-$$\mathbb{E}(Y|X,Z) = X\beta + Z'(\gamma - \pi \delta) + \delta(X + \mathbb{E}(X^* | X^* <= 0, Z)\mathbb{1}(X = 0))$$
+$$\mathbb{E}(Y\|X,Z) = X\beta + Z'(\gamma - \pi \delta) + \delta(X + \mathbb{E}(X^* \| X^* <= 0, Z)\mathbb{1}(X = 0))$$
 
-It seems complicated, but the trick is that we imput $\mathbb{E}(X^* | X^* <= 0, Z)\mathbb{1}(X = 0)$ as a proxy for when X becomes 0, meaning we now "observe" negative values for smoking cigarettes.
+It seems complicated, but the trick is that we imput $\mathbb{E}(X^* \| X^* <= 0, Z)\mathbb{1}(X = 0)$ as a proxy for when X becomes 0, meaning we now "observe" negative values for smoking cigarettes.
 
 What is that actually doing? It is actually accounting for the unobservable which confounds our causal path.
 

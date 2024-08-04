@@ -142,7 +142,7 @@ The answer is: there is a variable, that we do not observe, that "runs" in that 
 
 Going back to metrics language:
 
-$$X = max\\{0, X*\\}$$
+$$X = max \{0, X* \} $$
 
 That is, $X$, the observed variable representing average cigarettes per day is in fact a proxy for $X^*$, the _running variable_ that is continuous in zero and can assume negative values (of course you may say cigarettes is an integer and therefore, not necessarily continuous. Let us abstract from this for the sake of simplicity, since it does not impose loss of generality in understanding the concept).
 

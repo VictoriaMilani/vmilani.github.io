@@ -3,7 +3,7 @@ layout: single
 title:  "So, what is bunching?"
 classes: wide
 use_math: true
-date:   2022-11-03 10:31:27 -0400
+date:   2024-08-04 10:31:27 -0400
 categories: R
 excerpt: "This is a brief introduction of bunching analysis in data as a causal method. The data used here has been constructed, using a basic example based on [Caetano 2015](https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA11231)"
 ---

@@ -51,7 +51,7 @@ Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
     <a href="http://www.gregoriocaetano.net/" target="_blank">Dr. Gregorio Caetano</a><br>
   </div>
   <div style="margin-bottom: 10px;">
-    <a href="http://www.https://sites.google.com/site/aliceschoonbroodt/home?authuser=0" target="_blank"> Dr. Alice Schoonbroodt (teaching reference)</a><br>
+    <a href="https://sites.google.com/site/aliceschoonbroodt/home?authuser=0" target="_blank"> Dr. Alice Schoonbroodt (teaching reference)</a><br>
   </div>
 </div>
 

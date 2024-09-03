@@ -7,7 +7,7 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
-I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
+I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/). My areas of interests are Labor Economics and Applied Econometrics.
 
 ---
 Selected works: 

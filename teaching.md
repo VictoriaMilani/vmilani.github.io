@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## [Teaching Portfolio](https://drive.google.com/file/d/1x9Jlu39607Ee7UI4EVteWWh0vUGkGwHr/view?usp=sharing)
+## [Teaching Portfolio](assets/teachingport_hugo.pdf)
 
 ## Instructor of Record
 

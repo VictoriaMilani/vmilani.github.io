@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## [Teaching Portfolio](files/teachingport_hugo.pdf)
+<a href = "../files/teachingport_hugo.pdf" target="_blank">CV</a>
 
 ## Instructor of Record
 

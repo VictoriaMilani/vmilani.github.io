@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## [Teaching Portfolio](assets/teachingport_hugo.pdf)
+## [Teaching Portfolio](files/teachingport_hugo.pdf)
 
 ## Instructor of Record
 

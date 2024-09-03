@@ -4,7 +4,7 @@ classes: wide
 title: Difference in Differences with Time-Varying Covariates
 permalink: /workingpapers/badcontrols
 ---
-<img width="640" alt="image" src="https://github.com/user-attachments/assets/cf0eb1a5-d5eb-46a2-806d-ea33c078295c">
+<img width="640" alt="image" src="https://github.com/bassets/images/att_badcontrols.png">
 
 - <a href="https://arxiv.org/pdf/2202.02903" target="_blank">manuscript</a>
 

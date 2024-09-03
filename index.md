@@ -7,7 +7,7 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
-I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/). My areas of interests are Labor Economics and Applied Econometrics.
+I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/). My areas of interests are **Labor Economics** and **Applied Econometrics**. Here is my <a href="files/hsantannaCV.pdf">CV</a>. I will be on the **2024/2025 job market**. 
 
 ---
 Selected works: 
@@ -20,14 +20,7 @@ Selected works:
   
 ---
 
-I will be on the **2024/2025 job market**. My <a href="files/hsantannaCV.pdf">CV</a>.
-
 Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
-
-**Fields:**
-
-- **Primary:** Labor Economics, Applied Econometrics
-- **Secondary:** Applied Microeconomics
 
 <div style="border: 2px solid #4CAF50; padding: 10px; background-color: #E8F5E9; margin-bottom: 20px;">
   <strong>My paper The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market got an R&R in the Journal of Economic Geography!</strong>

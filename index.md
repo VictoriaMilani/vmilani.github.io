@@ -13,14 +13,13 @@ I am **Hugo Sant'Anna**, a Ph.D. candidate at the [University of Georgia](https:
   <strong>My paper The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market got an R&R in the Journal of Economic Geography!</strong>
 </div>
 ---
-My work connects labor economics with econometric tools. Selected works: 
+Selected works: 
 
-- [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) - Using Gaussian mixtures to find worker-firm assortativity contribution to the gender wage gap.
+- [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) (_Job Market Paper_)
   
-- [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ _Journal of Economic Geography_) - Doubly Robust DID to investigate informal-formal sector wage dynamics during an immigration crisis.
+- [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ _Journal of Economic Geography_)
   
-- [Difference in Differences with Time-Varying Covariates](/workingpapers/badcontrols) - How to proceed when covariates are contaminated with treatment?
-
+- [Difference in Differences with Time-Varying Covariates](/workingpapers/badcontrols)
 ---
 
 I will be on the **2024/2025 job market**. My <a href="files/hsantannaCV.pdf">CV</a>.

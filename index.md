@@ -1,6 +1,5 @@
 ---
 layout: single
-classes: wide
 title: Hello!
 permalink: /
 author_profile: true

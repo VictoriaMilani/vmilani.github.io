@@ -7,7 +7,7 @@ permalink: /research/
 
 ## Working Papers
 
-Sant'Anna, Hugo. "Assortative Matching and the Gender Wage Gap." Aug 2024 (upcoming) <br />
+Sant'Anna, Hugo. "Assortative Matching and the Gender Wage Gap." 2024 <br />
 *Job Market Paper* [[details](/workingpapers/assortmatch.md)]
 
 Sant'Anna, Hugo and Samyam Shrestha. "The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market." Apr 2024 <br />
@@ -18,3 +18,12 @@ Caetano, Carolina, Brantly Callaway, Stroud Payne, and Hugo Sant'Anna. "Differen
 
 Sant'Anna, Hugo. "Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure." May 2024.  <br />
 *Working Paper*. [[details](/workingpapers/mariana.md)]
+
+## Work in Progress
+
+Immigration Enforcement and Business Dynamics (with Samyam Shrestha) [Abstract]
+
+The Effects of Crime on Firm Entry and Exit: Evidence from Rio de Janeiro (with Samyam Shrestha) [Abstract]
+
+
+

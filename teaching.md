@@ -15,11 +15,11 @@ permalink: /teaching/
 
 * Graduate and Undergraduate Level Econometrics (Dr. [Carolina Caetano](http://www.carolinacaetano.net), Dr. [Brantly Callaway](https://bcallaway11.github.io)) (2022, 2023, 2024)
 
-* Introduction to Data Science for Business (Dr. Chris Cornwell) (2021, 2022)
+* Introduction to Data Science for Business (Dr. [Chris Cornwell](https://cornwl.github.io)) (2021, 2022)
   
-* Labor Economics (Dr. Gregorio Caetano) (2022, 2023)
+* Labor Economics (Dr. [Gregorio Caetano](http://gregoriocaetano.net)) (2022, 2023)
 
-* Graduate Level Causal Inference and Microeconomics (Dr. Scott Cunningham) (2019, 2020)
+* Graduate Level Causal Inference and Microeconomics Dr. [Scott Cunningham](http://www.scunning.com) (2019, 2020)
 
 
 ## Causal Inference: The Mixtape by [Scott Cunningham](http://www.scunning.com)

@@ -14,10 +14,10 @@ permalink: /research/
 <span style="color:#50b27c;">Revise and Resubmit, *Journal of Economic Geography*</span> [[details](/workingpapers/vzcrisis.md)]
 
 "Difference in Differences with Bad Controls" (with Carolina Caetano, Brantly Callaway, and Stroud Payne)<br />
-<span style="color:#f5a623;">*Working Paper*</span> [[details](/workingpapers/badcontrols.md)]
+<span style="color:#d9822b;">*Working Paper*</span> [[details](/workingpapers/badcontrols.md)]
 
 "Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure"  <br />
-<span style="color:#f5a623;">*Working Paper*</span> [[details](/workingpapers/mariana.md)]
+<span style="color:#d9822b;">*Working Paper*</span> [[details](/workingpapers/mariana.md)]
 
 
 ## Selected Work in Progress

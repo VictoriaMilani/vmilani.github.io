@@ -5,8 +5,8 @@ title: "Gender Differences in Comparative Advantage Matches: Evidence from Linke
 permalink: /workingpapers/assortmatch
 ---
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="/assets/images/figure1.png" alt="Additive Separable Labor Market" width="320" />
-  <img src="/assets/images/figure2.png" alt="Assortative Labor Market" width="320" />
+  <img src="/assets/images/figure1.png" alt="Additive Separable Labor Market" width="500" />
+  <img src="/assets/images/figure2.png" alt="Assortative Labor Market" width="500" />
 </div>
 
 - <a href="../files/JMP_SantAnna.pdf" target="_blank">manuscript</a>

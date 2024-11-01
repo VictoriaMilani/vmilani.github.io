@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data
+title: Gender Differences in Comparative Advantage Matches\: Evidence from Linked Employer-Employee Data
 permalink: /workingpapers/assortmatch
 ---
 <img src="/assets/images/fig_typeclass_proportion_10.png" width="640" />

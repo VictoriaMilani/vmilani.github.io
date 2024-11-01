@@ -7,16 +7,16 @@ permalink: /research/
 
 ## Working Papers
 
-"Assortative Matching and the Gender Wage Gap." <br />
+"Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data" <br />
 <span style="color:#4a90e2;">*Job Market Paper*</span> [[details](/workingpapers/assortmatch.md)]
 
-"The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market." (with Samyam Shrestha) <br />
+"The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market" (with Samyam Shrestha) <br />
 <span style="color:#50b27c;">Revise and Resubmit, *Journal of Economic Geography*</span> [[details](/workingpapers/vzcrisis.md)]
 
-"Difference in Differences with Time-Varying Covariates." (with Carolina Caetano, Brantly Callaway, and Stroud Payne)<br />
+"Difference in Differences with Bad Controls" (with Carolina Caetano, Brantly Callaway, and Stroud Payne)<br />
 <span style="color:#f5a623;">*Working Paper*</span> [[details](/workingpapers/badcontrols.md)]
 
-"Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure."  <br />
+"Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure"  <br />
 <span style="color:#f5a623;">*Working Paper*</span> [[details](/workingpapers/mariana.md)]
 
 

@@ -6,12 +6,12 @@ permalink: /teaching/
 ---
 
 ## Instructor of Record
+<span style="color:#7e57c2;">_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_</span>
 
 * Principles of Macroeconomics (Summer 2023, Spring 2024)
 
-<span style="color:#7e57c2;">_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_</span>
-
 ## Teaching Assistantships
+<span style="color:#7e57c2;">_Outstanding Teaching Assistant Award, Center for Teaching and Learning, UGA_</span>
 
 * Graduate and Undergraduate Level Econometrics (Dr. [Carolina Caetano](http://www.carolinacaetano.net), Dr. [Brantly Callaway](https://bcallaway11.github.io)) (2022, 2023, 2024)
 
@@ -21,5 +21,9 @@ permalink: /teaching/
 
 * Graduate Level Causal Inference and Microeconomics (Dr. Scott Cunningham) (2019, 2020)
 
-<span style="color:#7e57c2;">_Outstanding Teaching Assistant Award, Center for Teaching and Learning, UGA_</span>
+
+## Causal Inference: The Mixtape by [Scott Cunningham](scunning.com)
+
+During my master’s, I collaborated with Dr. Scott Cunningham to translate all causal inference models in his textbook, Causal Inference: The Mixtape, from Stata to R. I developed the code for accessibility, making it clear for both graduate and undergraduate students. This experience quickly made me familiarized with many causal inference tools typical in economics.
+
 

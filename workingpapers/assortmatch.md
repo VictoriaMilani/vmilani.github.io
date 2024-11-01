@@ -1,12 +1,12 @@
 ---
 layout: single
 classes: wide
-title: Assortative Matching and the Gender Wage Gap
+title: Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data
 permalink: /workingpapers/assortmatch
 ---
 <img src="/assets/images/fig_typeclass_proportion_10.png" width="640" />
 
-- <a href="https://arxiv.org/pdf/2202.02903" target="_blank">manuscript</a>
+- <a href="../files/hsantannaCV.pdf" target="_blank">manuscript</a>
 
 ## Abstract
-Are we underestimating assortative matching in gender wage gap analyses? Using the two-stage distributional framework of \textcite{bonhomme_distributional_2019} in a massive Brazilian administrative data from 2010 to 2017, I address this question by eliminating the usual limitations of conventional models, particularly data trimming and limited mobility bias, known to severely impact estimates. The analysis reveals that assortative matching accounts for almost 28 percent of wage variance for female workers, approximately one third larger than traditional estimates. Monte Carlo simulations demonstrate that about 30 percent of the gender wage gap is due to labor market allocations. I also find that violations of additive separability principles impose higher friction to women, accounting for at least 9 percent of the gender wage gap.
+In this paper, I introduce a novel decomposition method based on Gaussian mixtures and k-Means clustering, applied to a large Brazilian administrative dataset, to analyze the gender wage gap through the lens of worker-firm interactions shaped by comparative advantage. These interactions generate wage levels in logs that exceed the simple sum of worker and firm components, making them challenging for traditional linear models to capture effectively. I find that these ``complementarity effects'' account for approximately 17\% of the gender wage gap. Larger firms, high human capital, STEM degrees, and managerial roles are closely related to it. For instance, among managerial occupations, the match effect goes as high as one-third of the total gap. I also find women are less likely to be employed by firms offering higher returns to both human capital and firm-specific premiums, resulting in a significantly larger firm contribution to the gender wage gap than previously estimated. Combined, these factors explain nearly half of the overall gender wage gap, suggesting the importance of understanding firm-worker matches in addressing gender-based pay disparities.

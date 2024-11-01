@@ -11,7 +11,7 @@ I am Hugo Sant'Anna, a Ph.D. candidate at the [University of Georgia](https://ww
 
 My areas of interests are **Labor Economics** and **Applied Econometrics**. I am study how shocks shape wage structures in the labor market, with particular interest in gender, immigration, and enviroment.
 
-<a href="files/hsantannaCV.pdf">Curriculum Vitae</a>. Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>
+My <a href="files/hsantannaCV.pdf">Curriculum Vitae</a>. Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>.
 
 I will be on the **2024/2025 job market**. 
 

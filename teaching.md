@@ -1,20 +1,19 @@
 ---
 layout: single
 title: Teaching
+classes: wide
 permalink: /teaching/
 ---
-
-**<a href = "../files/teachingport_hugo.pdf" target="_blank">Teaching Portfolio</a>**
 
 ## Instructor of Record
 
 * Principles of Macroeconomics (Summer 2023, Spring 2024)
 
-_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_
+<span style="color:#7e57c2;">_Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_</span>
 
 ## Teaching Assistantships
 
-* Graduate and Undergraduate Level Econometrics (Dr. Carolina Caetano, Dr. Brantly Callaway) (2022, 2023, 2024)
+* Graduate and Undergraduate Level Econometrics (Dr. [Carolina Caetano](http://www.carolinacaetano.net), Dr. [Brantly Callaway](https://bcallaway11.github.io)) (2022, 2023, 2024)
 
 * Introduction to Data Science for Business (Dr. Chris Cornwell) (2021, 2022)
   
@@ -22,4 +21,5 @@ _Swift Undergraduate Teaching Fellowship Award, Terry College of Business, UGA_
 
 * Graduate Level Causal Inference and Microeconomics (Dr. Scott Cunningham) (2019, 2020)
 
-_Outstanding Teaching Assistant Award, Center for Teaching and Learning, UGA_
+<span style="color:#7e57c2;">_Outstanding Teaching Assistant Award, Center for Teaching and Learning, UGA_</span>
+

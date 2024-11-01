@@ -22,7 +22,7 @@ permalink: /teaching/
 * Graduate Level Causal Inference and Microeconomics (Dr. Scott Cunningham) (2019, 2020)
 
 
-## Causal Inference: The Mixtape by [Scott Cunningham](scunning.com)
+## Causal Inference: The Mixtape by [Scott Cunningham](http://www.scunning.com)
 
 During my master’s, I collaborated with Dr. Scott Cunningham to translate all causal inference models in his textbook, Causal Inference: The Mixtape, from Stata to R. I developed the code for accessibility, making it clear for both graduate and undergraduate students. This experience quickly made me familiarized with many causal inference tools typical in economics.
 

@@ -18,7 +18,7 @@ I will be on the **2024/2025 job market**.
 ---
 Selected works: 
 
-- [Gender Wage Gap and Assortative Matching](/workingpapers/assortmatch) (_Job Market Paper_)
+- [Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data](/workingpapers/assortmatch) (_Job Market Paper_)
   
 - [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ _Journal of Economic Geography_)
   

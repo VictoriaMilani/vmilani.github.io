@@ -22,7 +22,7 @@ Selected works:
   
 - [The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market](/workingpapers/vzcrisis) (R&R @ _Journal of Economic Geography_)
   
-- [Difference in Differences with Time-Varying Covariates](/workingpapers/badcontrols) 
+- [Difference in Differences with Bad Controls](/workingpapers/badcontrols) 
   
 ---
 

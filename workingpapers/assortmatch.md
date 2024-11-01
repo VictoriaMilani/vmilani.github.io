@@ -4,7 +4,10 @@ classes: wide
 title: "Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data"
 permalink: /workingpapers/assortmatch
 ---
-<img src="/assets/images/fig_typeclass_proportion_10.png" width="640" />
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="/assets/images/figure1.png" alt="Additive Separable Labor Market" width="320" />
+  <img src="/assets/images/figure2.png" alt="Assortative Labor Market" width="320" />
+</div>
 
 - <a href="../files/JMP_SantAnna.pdf" target="_blank">manuscript</a>
 

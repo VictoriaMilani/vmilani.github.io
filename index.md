@@ -41,7 +41,7 @@ Selected works:
     <a href="http://www.scunning.com/" target="_blank">Dr. Scott Cunningham</a><br>
   </div>
   <div style="margin-bottom: 10px;">
-    <a href="https://sites.google.com/site/aliceschoonbroodt/home?authuser=0" target="_blank"> Dr. Alice Schoonbroodt (teaching reference)</a><br>
+    <a href="https://sites.google.com/site/aliceschoonbroodt/home?authuser=0" target="_blank"> Dr. Alice Schoonbroodt</a> (teaching reference)<br>
   </div>
 </div>
 

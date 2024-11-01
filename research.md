@@ -10,14 +10,15 @@ permalink: /research/
 "Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data" <br />
 <span style="color:#4a90e2;">*Job Market Paper*</span> [[details](/workingpapers/assortmatch.md)]
 
-"The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market" (with Samyam Shrestha) <br />
+"The Effects of the Venezuelan Refugee Crisis on the Brazilian Labor Market" (with [Samyam Shrestha](https://shsamyam.org)) <br />
 <span style="color:#50b27c;">Revise and Resubmit, *Journal of Economic Geography*</span> [[details](/workingpapers/vzcrisis.md)]
 
-"Difference in Differences with Bad Controls" (with Carolina Caetano, Brantly Callaway, and Stroud Payne)<br />
+"Difference in Differences with Bad Controls" (with [Carolina Caetano](http://www.carolinacaetano.net), [Brantly Callaway](https://bcallaway11.github.io), and [Stroud Payne](https://as.vanderbilt.edu/economics/bio/stroud-payne/)<br />
 <span style="color:#d9822b;">*Working Paper*</span> [[details](/workingpapers/badcontrols.md)]
 
 "Labor Market Effects of an Environmental Disaster: Evidence from the 2015 Mariana Dam Failure"  <br />
 <span style="color:#d9822b;">*Working Paper*</span> [[details](/workingpapers/mariana.md)]
+
 
 
 ## Selected Work in Progress

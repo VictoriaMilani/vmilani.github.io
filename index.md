@@ -9,7 +9,7 @@ author: Hugo Sant'Anna
 
 I am Hugo Sant'Anna, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
-My areas of interests are **Labor Economics** and **Applied Econometrics**. I study how shocks shape wage structures in the labor market, with particular interest in gender, immigration, and enviroment.
+My areas of interests are **Labor Economics** and **Applied Econometrics**. I study how shocks shape wage structures in the labor market, with particular interest in gender, immigration, and environment.
 
 Here is my <a href="files/hsantannaCV.pdf">Curriculum Vitae</a>. Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>.
 

@@ -16,7 +16,6 @@ I will be on the **2024/2025 job market**.
 
 ---
 
----
 Selected works: 
 
 - [Gender Differences in Comparative Advantage Matches: Evidence from Linked Employer-Employee Data](/workingpapers/assortmatch) (_Job Market Paper_)

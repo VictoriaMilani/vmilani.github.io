@@ -1,19 +1,20 @@
 ---
 layout: single
-title: Hello!
+title: About Me
 permalink: /
 classes: wide
 author_profile: true
 author: Hugo Sant'Anna
 ---
 
-I am Hugo Sant'Anna, a Ph.D. candidate at the [University of Georgia](https://www.uga.edu/), [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
+I am **Hugo Sant'Anna**, a Ph.D. candidate in Economics at the [University of Georgia](https://www.uga.edu/), in the [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/). My research interests lie at the intersection of **Labor Economics** and **Applied Econometrics**, where I examine how large-scale disruptions reshape labor market structures, with a focus on immigration flows, environmental crises, and gender dynamics. My work also addresses methodological challenges in causal inference, particularly in settings where covariates may be influenced by treatment effects in Difference-in-Differences frameworks.
 
-My areas of interests are **Labor Economics** and **Applied Econometrics**. I study how shocks shape wage structures in the labor market, with particular interest in gender, immigration, and environment.
+[Download my CV](files/hsantannaCV.pdf)  
+[Email me](mailto:hsantanna@uga.edu)
 
-Here is my <a href="files/hsantannaCV.pdf">Curriculum Vitae</a>. Reach me at <a href="mailto:hsantanna@uga.edu">hsantanna@uga.edu</a>.
+I will be on the **2024/2025 job market**.
 
-I will be on the **2024/2025 job market**. 
+---
 
 ---
 Selected works: 

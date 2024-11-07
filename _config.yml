@@ -31,8 +31,9 @@ twitter_username: hsantanna
 github_username:  hsantanna88
 markdown: kramdown
 google_analytics: G-20PK9V3SD0
+# Analytics
 analytics:
-  provider: "G-20PK9V3SD0"
+  provider: "custom" # Use custom provider to handle GA4 tracking manually
 
 
 defaults:

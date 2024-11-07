@@ -31,6 +31,8 @@ twitter_username: hsantanna
 github_username:  hsantanna88
 markdown: kramdown
 google_analytics: G-20PK9V3SD0
+analytics:
+  provider: "G-20PK9V3SD0"
 
 
 defaults:

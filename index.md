@@ -14,7 +14,9 @@ author: Hugo Sant'Anna
 
 I am **Hugo Sant'Anna**, a Ph.D. candidate in Economics at the [University of Georgia](https://www.uga.edu/), in the [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).
 
-My research interests lie at the intersection of **Labor Economics** and **Applied Econometrics**, where I examine how large-scale disruptions reshape labor market structures, with a focus on immigration flows, environmental crises, and gender dynamics. My work also addresses methodological challenges in causal inference, particularly in settings where covariates may be influenced by treatment effects in Difference-in-Differences frameworks.
+My research interests lie at the intersection of **Labor Economics** and **Applied Econometrics**, where I examine how large-scale disruptions reshape labor market structures, with a focus on immigration flows, environmental crises, and gender dynamics.
+
+My work also addresses methodological challenges in settings where covariates may be influenced by treatment effects in Difference-in-Differences.
 
 [Download my CV](files/hsantannaCV.pdf)  
 [Email me](mailto:hsantanna@uga.edu)

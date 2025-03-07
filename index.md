@@ -7,7 +7,7 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
-<div style="background-color: #d9edf7; padding: 15px; border: 1px solid #bce8f1; border-radius: 4px; text-align: center; margin-bottom: 20px;">
+ <div style="background-color: #002D62; padding: 15px; border: 1px solid #FDB827; border-radius: 4px; text-align: center; margin-bottom: 20px; color: #ffffff;">
   <span style="vertical-align: middle;"><b>I am excited to share that I will start in Fall 2025 as an Assistant Professor at the University of Alabama at Birmingham!</b>b></span>
     <span style="font-size: 2em; vertical-align: middle;">🐲</span>
 </div>

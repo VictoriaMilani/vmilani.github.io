@@ -7,9 +7,9 @@ author_profile: true
 author: Hugo Sant'Anna
 ---
 
- <div style="background-color: #002D62; padding: 15px; border: 1px solid #FDB827; border-radius: 4px; text-align: center; margin-bottom: 20px; color: #ffffff;">
-  <span style="vertical-align: middle;"><b>I am excited to share that I will start in Fall 2025 as an Assistant Professor at the University of Alabama at Birmingham!</b></span>
-    <span style="font-size: 2em; vertical-align: middle;">🐲</span>
+<div style="background-color: #154734; padding: 15px; border: 1px solid #C8B37D; border-radius: 4px; text-align: center; margin-bottom: 20px; color: #ffffff;">
+  <span style="font-size: 2em; vertical-align: middle;">🐲</span>
+  <span style="vertical-align: middle;">I am excited to share that I will start in Fall 2025 as an Assistant Professor at the University of Alabama at Birmingham!</span>
 </div>
 
 I am **Hugo Sant'Anna**, a Ph.D. candidate in Economics at the [University of Georgia](https://www.uga.edu/), in the [John Munro Godfrey, Sr. Department of Economics](https://www.terry.uga.edu/economics/).

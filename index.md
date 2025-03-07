@@ -16,7 +16,7 @@ I am **Hugo Sant'Anna**, a Ph.D. candidate in Economics at the [University of Ge
 
 My research interests lie at the intersection of **Labor Economics** and **Applied Econometrics**, where I examine how large-scale disruptions reshape labor market structures, with a focus on immigration flows, environmental crises, and gender dynamics.
 
-My work also addresses methodological challenges in settings where covariates may be influenced by treatment effects in Difference-in-Differences.
+I also study methodological challenges in settings where covariates may be influenced by treatment effects in Difference-in-Differences.
 
 [Download my CV](files/hsantannaCV.pdf)  
 [Email me](mailto:hsantanna@uga.edu)

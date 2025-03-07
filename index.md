@@ -2,7 +2,6 @@
 layout: single
 title: About Me
 permalink: /
-classes: wide
 author_profile: true
 author: Hugo Sant'Anna
 ---

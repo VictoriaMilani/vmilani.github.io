@@ -5,11 +5,11 @@ Hugo Sant'Anna:
     University of Georgia
   avatar      : "assets/images/hugo_profile.jpg"
   links:
-    - label: "UGA Email"
-      icon: "🐶"
+    - label: "🐶UGA Email"
+      icon: "fas fa-fw"
       url: "mailto:hsantanna@uga.edu"
-    - label: "UGA Email"
-      icon: "🐉"
+    - label: "🐉UAB Email"
+      icon: "fas fa-fw"
       url: "mailto:hsantanna@uab.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"

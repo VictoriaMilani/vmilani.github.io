@@ -1,19 +1,16 @@
-Hugo Sant'Anna:
-  name        : "Hugo Sant'Anna Rodrigues"
+Victoria Milani Lewaschiw:
+  name        : "Victoria Milani Lewaschiw"
   bio         : |
     Ph.D. Candidate in Economics<br>
     University of Georgia
-  avatar      : "assets/images/hugo_profile.jpg"
+  # avatar      : "assets/images/hugo_profile.jpg"
   links:
     - label: "UGA Email"
       icon: "fas fa-solid fa-dog"
-      url: "mailto:hsantanna@uga.edu"
-    - label: "UAB Email"
-      icon: "fas fa-solid fa-dragon"
-      url: "mailto:hsantanna@uab.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hsantanna88.github.io/"
+      url: "mailto:vmilani@uga.edu"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://hsantanna88.github.io/"
     - label: "Github"
       icon: "fab fa-github"
       url: "https://github.com/hsantanna88"
